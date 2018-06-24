@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- @BeforeSuite -->
+<suite name="TestAll">
+
+	<!-- @BeforeTest -->
+	<test name="case1">
+	  <classes>
+		<class name="mavenGroupId.mavenArtifactId_1.TestConfiguration" />
+		<class name="mavenGroupId.mavenArtifactId_1.TestDBConnection" />
+		<class name="mavenGroupId.mavenArtifactId_1.DBConfig" />
+	  </classes>
+	</test>
+	<!-- @AfterTest -->
+	
+	<!-- @BeforeTest -->
+	<test name="case2">
+	  <classes>
+		<class name="mavenGroupId.mavenArtifactId_1.TestDBConnection" />
+		<class name="mavenGroupId.mavenArtifactId_1.DBConfig" />
+	  </classes>
+	</test>
+	<!-- @AfterTest -->
+	
+</suite>
+<!-- @AfterSuite -->

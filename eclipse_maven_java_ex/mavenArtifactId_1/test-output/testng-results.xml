@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-06-24T09:30:36Z" name="TestAll" finished-at="2018-06-24T09:30:36Z" duration-ms="218">
+    <groups>
+      <group name="shopping">
+        <method signature="TestConfiguration.runTest1()[pri:0, instance:mavenGroupId.mavenArtifactId_1.TestConfiguration@65d09a04]" name="runTest1" class="mavenGroupId.mavenArtifactId_1.TestConfiguration"/>
+      </group> <!-- shopping -->
+    </groups>
+    <test started-at="2018-06-24T09:30:36Z" name="case1" finished-at="2018-06-24T09:30:36Z" duration-ms="28">
+      <class name="mavenGroupId.mavenArtifactId_1.TestDBConnection">
+        <test-method signature="runOtherTest1()[pri:0, instance:mavenGroupId.mavenArtifactId_1.TestDBConnection@33c911a1]" started-at="2018-06-24T09:30:36Z" name="runOtherTest1" finished-at="2018-06-24T09:30:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOtherTest1 -->
+        <test-method signature="runOtherTest2()[pri:0, instance:mavenGroupId.mavenArtifactId_1.TestDBConnection@33c911a1]" started-at="2018-06-24T09:30:36Z" name="runOtherTest2" finished-at="2018-06-24T09:30:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOtherTest2 -->
+      </class> <!-- mavenGroupId.mavenArtifactId_1.TestDBConnection -->
+      <class name="mavenGroupId.mavenArtifactId_1.TestConfiguration">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:mavenGroupId.mavenArtifactId_1.TestConfiguration@65d09a04]" started-at="2018-06-24T09:30:36Z" name="beforeClass" finished-at="2018-06-24T09:30:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeGroups()[pri:0, instance:mavenGroupId.mavenArtifactId_1.TestConfiguration@65d09a04]" started-at="2018-06-24T09:30:36Z" name="beforeGroups" finished-at="2018-06-24T09:30:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroups -->
+        <test-method signature="runTest1()[pri:0, instance:mavenGroupId.mavenArtifactId_1.TestConfiguration@65d09a04]" started-at="2018-06-24T09:30:36Z" name="runTest1" finished-at="2018-06-24T09:30:36Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:mavenGroupId.mavenArtifactId_1.TestConfiguration@65d09a04]" started-at="2018-06-24T09:30:36Z" name="beforeMethod" finished-at="2018-06-24T09:30:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:mavenGroupId.mavenArtifactId_1.TestConfiguration@65d09a04]" started-at="2018-06-24T09:30:36Z" name="afterMethod" finished-at="2018-06-24T09:30:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterGroups()[pri:0, instance:mavenGroupId.mavenArtifactId_1.TestConfiguration@65d09a04]" started-at="2018-06-24T09:30:36Z" name="afterGroups" finished-at="2018-06-24T09:30:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterGroups -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:mavenGroupId.mavenArtifactId_1.TestConfiguration@65d09a04]" started-at="2018-06-24T09:30:36Z" name="beforeMethod" finished-at="2018-06-24T09:30:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="runTest2()[pri:0, instance:mavenGroupId.mavenArtifactId_1.TestConfiguration@65d09a04]" started-at="2018-06-24T09:30:36Z" name="runTest2" finished-at="2018-06-24T09:30:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest2 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:mavenGroupId.mavenArtifactId_1.TestConfiguration@65d09a04]" started-at="2018-06-24T09:30:36Z" name="afterClass" finished-at="2018-06-24T09:30:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:mavenGroupId.mavenArtifactId_1.TestConfiguration@65d09a04]" started-at="2018-06-24T09:30:36Z" name="afterMethod" finished-at="2018-06-24T09:30:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- mavenGroupId.mavenArtifactId_1.TestConfiguration -->
+      <class name="mavenGroupId.mavenArtifactId_1.DBConfig">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:mavenGroupId.mavenArtifactId_1.DBConfig@5aebe890]" started-at="2018-06-24T09:30:36Z" name="beforeTest" finished-at="2018-06-24T09:30:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:mavenGroupId.mavenArtifactId_1.DBConfig@5aebe890]" started-at="2018-06-24T09:30:36Z" name="afterTest" finished-at="2018-06-24T09:30:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- mavenGroupId.mavenArtifactId_1.DBConfig -->
+    </test> <!-- case1 -->
+    <test started-at="2018-06-24T09:30:36Z" name="case2" finished-at="2018-06-24T09:30:36Z" duration-ms="9">
+      <class name="mavenGroupId.mavenArtifactId_1.TestDBConnection">
+        <test-method signature="runOtherTest1()[pri:0, instance:mavenGroupId.mavenArtifactId_1.TestDBConnection@10d68fcd]" started-at="2018-06-24T09:30:36Z" name="runOtherTest1" finished-at="2018-06-24T09:30:36Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOtherTest1 -->
+        <test-method signature="runOtherTest2()[pri:0, instance:mavenGroupId.mavenArtifactId_1.TestDBConnection@10d68fcd]" started-at="2018-06-24T09:30:36Z" name="runOtherTest2" finished-at="2018-06-24T09:30:36Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOtherTest2 -->
+      </class> <!-- mavenGroupId.mavenArtifactId_1.TestDBConnection -->
+      <class name="mavenGroupId.mavenArtifactId_1.DBConfig">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:mavenGroupId.mavenArtifactId_1.DBConfig@424e1977]" started-at="2018-06-24T09:30:36Z" name="beforeSuite" finished-at="2018-06-24T09:30:36Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:mavenGroupId.mavenArtifactId_1.DBConfig@424e1977]" started-at="2018-06-24T09:30:36Z" name="beforeTest" finished-at="2018-06-24T09:30:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:mavenGroupId.mavenArtifactId_1.DBConfig@424e1977]" started-at="2018-06-24T09:30:36Z" name="afterTest" finished-at="2018-06-24T09:30:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:mavenGroupId.mavenArtifactId_1.DBConfig@424e1977]" started-at="2018-06-24T09:30:36Z" name="afterSuite" finished-at="2018-06-24T09:30:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- mavenGroupId.mavenArtifactId_1.DBConfig -->
+    </test> <!-- case2 -->
+  </suite> <!-- TestAll -->
+</testng-results>
